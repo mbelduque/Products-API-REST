@@ -15,7 +15,7 @@ public class Service implements Serializable {
     private long id;
 
     private String name;
-    private String aproxTime;
+    private String description;
     private BigDecimal price;
 
     public long getId() {
@@ -34,12 +34,12 @@ public class Service implements Serializable {
         this.name = name;
     }
 
-    public String getAproxTime() {
-        return aproxTime;
+    public String getDescription() {
+        return description;
     }
 
-    public void setAproxTime(String aproxTime) {
-        this.aproxTime = aproxTime;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public BigDecimal getPrice() {
